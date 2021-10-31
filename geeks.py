@@ -17,7 +17,7 @@ def udemy_link(title):
         for j in search(query, tld="com", num=1, stop=1, pause=1):
                 return j
 
-urls = ['https://geeksgod.com/category/freecoupons/udemy-courses-free/', 'https://geeksgod.com/category/freecoupons/udemy-courses-free/page/2/']
+urls = ['https://geeksgod.com/category/freecoupons/udemy-courses-free/']
 
 for i in urls:
         content = requests.get(i).text
