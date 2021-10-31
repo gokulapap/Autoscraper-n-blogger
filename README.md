@@ -13,11 +13,11 @@ Once Installed all the requirements, setup the easyblogger by below command
 
 `easyblogger --blogid <yourblogid> get`
 
-[To get the blog id refer - https://subinsb.com/how-to-find-blogger-blog-id]
+> To get the blog id refer - https://subinsb.com/how-to-find-blogger-blog-id
 
 This will open up a browser window that you use to authenticate with your google account 
 
-[Note : Authenticate the google account associated with blogger account]
+> Note : Authenticate the google account associated with blogger account
 
 you’re all set to use Easyblogger !
 
