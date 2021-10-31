@@ -12,11 +12,18 @@
         "BLOG_ID": {
             "description": "Your blogger id - refer [https://subinsb.com/how-to-find-blogger-blog-id]",
             "required": true
+        },
+        "CHAT_ID": {
+            "description": "Your Telegram chat id - refer [https://subinsb.com/how-to-find-blogger-blog-id]",
+            "required": true
         }
     },
   "buildpacks": [
     {
       "url": "heroku/python"
+    },
+    {
+      "url": "heroku-community/apt"
     }
   ]
 }

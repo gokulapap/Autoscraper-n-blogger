@@ -8,6 +8,7 @@ import os
 
 API_KEY = os.environ['API_KEY']
 BLOG_ID = os.environ['BLOG_ID']
+CHAT_ID = os.environ['CHAT_ID']
 
 bot = telebot.TeleBot(API_KEY)
 
@@ -132,6 +133,6 @@ large_text = open("telebot.txt", "rb").read()
 
 splitted_text = util.split_string(large_text, 3000)
 for text in splitted_text:
-    bot.send_message(1214546863, text)
+    bot.send_message(CHAT_ID, text)
 
 print('\n[+] Sent to telegram bot!\n')
