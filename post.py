@@ -87,7 +87,7 @@ def rem_code(str):
   return str_de
 
 #print("started..")
-file = open('geeksgod.json', 'r')
+file = open('courses.json', 'r')
 a = json.loads(file.read())
 file.close()
 

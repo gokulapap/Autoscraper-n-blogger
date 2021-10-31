@@ -51,7 +51,7 @@ for i in urls:
 print("scraped the courses and results are saved !")
 final = json.dumps(courses_last, indent=4)
 
-file = open('geeksgod.json', 'w')
+file = open('courses.json', 'w')
 file.write(final)
 file.close()
 
