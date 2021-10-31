@@ -1,0 +1,1 @@
+easyblogger --blogid BLOG_ID post -t "$1" -l "$2" --publish -f $3

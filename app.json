@@ -1,0 +1,22 @@
+{
+  "name" : "Autoscraper-n-blogger",
+  "description": "An Automated Udemy coupons scraper and blogger",
+  "repository": "https://github.com/gokulapap/Autoscraper-n-blogger",
+  "keywords": ["python", "blogger", "automation", "scraper"],
+  "website": "https://github.com/gokulapap",
+  "env": {
+        "API_KEY": {
+            "description": "Telegram Bot API key - refer [https://shorturl.at/glrwD]",
+            "required": true
+        },
+        "BLOG_ID": {
+            "description": "Your blogger id - refer [https://subinsb.com/how-to-find-blogger-blog-id]",
+            "required": true
+        }
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
