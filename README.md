@@ -7,6 +7,12 @@ An Automated udemy coupons scraper which scrapes coupons and autopost the result
 
 # Setup
 
+Before setup place Telegram bot API key, Telegram chat id and Blogger id in `config.json` file !
+
+> <a href="https://stackoverflow.com/questions/43291868/where-to-find-the-telegram-api-key">Telegram-bot API key</a>
+
+> <a href="https://www.wikihow.com/Know-Chat-ID-on-Telegram-on-Android">Telegram chat-id</a>
+
 `pip3 install requirements.txt`
 
 Once Installed all the requirements, setup the easyblogger by below command
