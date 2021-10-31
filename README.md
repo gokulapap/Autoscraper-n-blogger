@@ -5,5 +5,9 @@ An Automated udemy coupons scraper which scrapes coupons and autopost the result
 <li> Blogger account and blog id
 <li> Telegram Bot API key to notify you and send results
 
+# Setup
+
+
+
 # Demo
 _Loading ..._
