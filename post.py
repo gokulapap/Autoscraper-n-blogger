@@ -3,12 +3,19 @@ import telebot
 from telebot import util
 from datetime import date
 from datetime import datetime
+import json
 from os import system
 import os
 
-API_KEY = os.environ['API_KEY']
-BLOG_ID = os.environ['BLOG_ID']
-CHAT_ID = os.environ['CHAT_ID']
+keys = open('config.json',)
+
+data = json.load(keys)
+
+API_KEY = data['API_KEY']
+BLOG_ID = data['BLOG_ID']
+CHAT_ID = data['CHAT_ID']
+
+keys.close()
 
 bot = telebot.TeleBot(API_KEY)
 
@@ -110,9 +117,15 @@ file.write(part2)
 file.close()
 #print("\nCompleted!")
 
-print("\n[+] Posting the Blog to blogger...")
-system('easyblogger --blogid {} post -t "Free Udemy Courses - {}" -l "coupons,udemy" --publish -f ./htmls/courses_{}.html'.format(BLOG_ID, date.today().strftime("%d %b"), fn))
-print("\n[+] Posted successfully!")
+try:
+  if BLOG_ID == '':
+    raise Exception("Add keys in config.json")
+  print("\n[+] Posting the Blog to blogger...")
+  system('easyblogger --blogid {} post -t "Free Udemy Courses - {}" -l "coupons,udemy" --publish -f ./htmls/courses_{}.html'.format(BLOG_ID, date.today().strftime("%d %b"), fn))
+  print("\n[+] Posted successfully!")
+except:
+  print("\n[+] Add keys in config.json file !\n")
+  exit()
 
 tel = ''
 tel = tel + '*FREE UDEMY COURSES - {}*'.format(date.today().strftime("%d-%B"))

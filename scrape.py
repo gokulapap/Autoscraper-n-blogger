@@ -22,7 +22,7 @@ urls = ['https://geeksgod.com/category/freecoupons/udemy-courses-free/']
 for i in urls:
         content = requests.get(i).text
         soup = BeautifulSoup(content, 'lxml')
-        print("scraping udemy courses and coupons ...")
+        print("\n[+] scraping udemy courses and coupons ...")
         courses = soup.find_all('div', class_ = 'item-details')
 
         for course in courses:
@@ -48,7 +48,7 @@ for i in urls:
                 except:
                         pass
 
-print("scraped the courses and results are saved !")
+print("\n[+] scraped the courses and results are saved !")
 final = json.dumps(courses_last, indent=4)
 
 file = open('courses.json', 'w')
