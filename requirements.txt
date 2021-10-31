@@ -2,3 +2,4 @@ easyblogger
 bs4
 google
 pyTelegramBotAPI
+lxml
