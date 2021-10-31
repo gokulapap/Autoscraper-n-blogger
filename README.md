@@ -11,9 +11,9 @@ An Automated udemy coupons scraper which scrapes coupons and autopost the result
 
 Once Installed all the requirements, setup the easyblogger by below command
 
-[To get the blog id refer - https://subinsb.com/how-to-find-blogger-blog-id]
-
 `easyblogger --blogid <yourblogid> get`
+
+[To get the blog id refer - https://subinsb.com/how-to-find-blogger-blog-id]
 
 This will open up a browser window that you use to authenticate with your google account 
 
