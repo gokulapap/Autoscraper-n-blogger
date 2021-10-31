@@ -2,7 +2,7 @@
 An Automated udemy coupons scraper which scrapes coupons and autopost the result in blogspot post 
 
 # Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gokulapap/certificate-generator)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gokulapap/Autoscraper-n-blogger)
 
 # Requirements
 <li> Blogger account and blog id
