@@ -1,9 +1,9 @@
 # Autoscraper-n-blogger
-An Automated udemy coupons scraper which scrapes coupons and autopost the result in blogspot post 
+An Automated udemy coupons scraper which scrapes coupons and autopost the result in blogspot post and notifies via Telegram bot 
 
 # Requirements
 <li> Blogger account and blog id
-<li> Telegram Bot API key to notify you and send results
+<li> Telegram Bot API key and Your Telegram chat id to notify you and send results
 
 # Setup
 
