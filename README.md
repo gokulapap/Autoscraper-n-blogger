@@ -9,9 +9,9 @@ An Automated udemy coupons scraper which scrapes coupons and autopost the result
 
 Before setup place Telegram bot API key, Telegram chat id and Blogger id in `config.json` file !
 
-> <a href="https://stackoverflow.com/questions/43291868/where-to-find-the-telegram-api-key">Telegram-bot API key</a>
+> How to get my Telegram bot api key ? - <a href="https://stackoverflow.com/questions/43291868/where-to-find-the-telegram-api-key">Telegram-bot api-key</a>
 
-> <a href="https://www.wikihow.com/Know-Chat-ID-on-Telegram-on-Android">Telegram chat-id</a>
+> How to get your Telegram chat id ? - <a href="https://www.wikihow.com/Know-Chat-ID-on-Telegram-on-Android">Telegram chat-id</a>
 
 `pip3 install requirements.txt`
 
