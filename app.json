@@ -14,7 +14,7 @@
             "required": true
         },
         "CHAT_ID": {
-            "description": "Your Telegram chat id - refer [https://subinsb.com/how-to-find-blogger-blog-id]",
+            "description": "Your Telegram chat id - refer [https://splaitor.com/how-to-find-a-chat-id-in-telegram]",
             "required": true
         }
     },
