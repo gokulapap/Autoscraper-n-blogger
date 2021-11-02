@@ -1,7 +1,7 @@
 # Autoscraper-n-blogger
 An Automated udemy coupons scraper which scrapes coupons and autopost the result in blogspot post and notifies via Telegram bot 
 
-`sample blog : <a href="https://free-course-coupons.blogspot.com">https://free-course-coupons.blogspot.com</a>`
+>sample blog : <a href="https://free-course-coupons.blogspot.com">https://free-course-coupons.blogspot.com</a>
 
 # Requirements
 <li> Blogger account and blog id
